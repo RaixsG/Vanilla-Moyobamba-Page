@@ -5,6 +5,7 @@
     left: 0;
     top: 0;
     width: 100%;
+    z-index: 100;/*superpone todo el contenido al ser mayor que el otro*/
 }
 
 .topnav {
