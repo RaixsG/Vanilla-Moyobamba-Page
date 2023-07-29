@@ -1,6 +1,6 @@
 .topheader {
     box-shadow: 0 4px 5px #e5e5e5;
-    background-color: var(--blanco);
+    background-color: var(--background-color);
     position: fixed;/*FIJADO*/
     left: 0;
     top: 0;
@@ -13,6 +13,7 @@
     justify-content: space-between;
     padding: 10px;
     max-width: 980px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -59,7 +60,7 @@
 
 .menu a::after{
     content: "";
-    background-color: #a43256;
+    background-color: var(--titles-colors);
     position: absolute;
     left: 0;
     top: 100%;
@@ -89,7 +90,7 @@
         top: 0;
         width: 100%;
         align-items: center;
-        background-color: #3A4460;
+        background-color: #7c7c7c;
         height: 100%;
         overflow: auto;
 
